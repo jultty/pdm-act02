@@ -2,7 +2,7 @@
 name = "pdm-act02"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Juno Takano <juno.takano@aluno.ifsp.edu.br>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
