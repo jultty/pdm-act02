@@ -45,8 +45,8 @@ def main(page: ft.Page):
     buttons = [ button_send, button_reset, button_toggle_visibility ]
 
     page.add(
-        ft.TextField(ref=field_first_name, label="First name"),
-        ft.TextField(ref=field_last_name, label="Last name"),
+        ft.TextField(ref=field_first_name, label="First name", autofocus=True, on_submit=handleSend),
+        ft.TextField(ref=field_last_name, label="Last name", on_submit=handleSend),
         ft.Container(content = ft.Row(controls=buttons)) # pyright: ignore reportArgumentType
     )
 
